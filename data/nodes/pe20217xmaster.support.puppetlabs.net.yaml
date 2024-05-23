@@ -1,0 +1,59 @@
+---
+# allow more time for status page query to complete (in milliseconds)
+#puppet_enterprise::profile::database::random_page_cost: '5.0'
+puppet_enterprise::console_services::socket_timeout: 120000
+messages: "This text is from primary server node"
+puppet_enterprise::profile::orchestrator::job_prune_threshold: 40
+puppet_enterprise::profile::puppetdb::node_purge_ttl: '7d'
+puppet_enterprise::profile::puppetdb::report_ttl: '7d'
+puppet_enterprise::puppetdb::database_ini::resource_events_ttl: '2d'
+
+accounts:
+  ubuntu:
+    home: '/var/local/home/ubuntu'
+    nodeyaml: "per-node value"
+    testing.notation: 'Testing for dotted notation from node yaml'
+
+mykey.notation:
+  d: "per-node value"
+  b: "per-node override"
+
+mynotation:
+  d: "per-node value"
+  b: "per-node override"
+
+duplicateaccounts:
+  duplicate:
+    d: "per-node value"
+    b: "per-node override"
+
+mynewkey:
+  notation:
+    e: e-production-value
+    f: f-production-value
+
+lookup_options:
+  accounts:
+    merge:          # Merge behavior as a hash
+      strategy: deep
+      merge_hash_arrays: true
+  
+  mykey.notation:
+    merge:          # Merge behavior as a hash
+      strategy: deep
+      merge_hash_arrays: true
+  
+  mynewkey:
+    merge:          # Merge behavior as a hash
+      strategy: deep
+      merge_hash_arrays: true
+
+  mynotation:
+    merge:          # Merge behavior as a hash
+      strategy: deep
+      merge_hash_arrays: true
+  
+  duplicateaccounts:
+    merge:          # Merge behavior as a hash
+      strategy: deep
+      merge_hash_arrays: true
