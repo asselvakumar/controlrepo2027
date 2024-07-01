@@ -24,7 +24,10 @@ mod 'nginxcustom',
   git:     'git@github.com:asselvakumar/nginxcustom.git',
   branch:  'main'
 
-mod 'puppetlabs-puppet_agent', '4.17.0'
+mod 'puppetlabs-puppet_agent', '4.20.1'
+mod 'puppetlabs-stdlib', '9.6.0'
+mod 'puppetlabs-inifile', '6.1.1'
+mod 'puppetlabs-apt', '9.4.0'
 mod 'puppetlabs-facts', '1.4.0'
 
 mod 'puppetlabs-support_tasks', '4.1.0'
