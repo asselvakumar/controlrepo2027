@@ -5,6 +5,10 @@ puppet_enterprise::profile::agent::server_list:
 - 'pe20217xcompiler.support.puppetlabs.net:8140'
 - 'testingkumar.support.puppetlabs.net:8140' 
 
+puppet_enterprise::profile::agent::pcp_broker_list:
+- 'pe20217xcompiler.support.puppetlabs.net:8142'
+- 'testingkumar.support.puppetlabs.net:8142'
+
 pe_r10k::forge_settings:
   authorization_token: 'Bearer 1a5659e21d83616a1ab75fb334846dae243d39c709833341eaa5548753fc8342'
   baseurl: 'https://forgeapi.puppet.com'
