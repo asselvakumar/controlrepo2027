@@ -19,3 +19,12 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs-comply', '3.5.0'
 
 mod 'puppetlabs-bash_task_helper', '2.1.1'
+
+#modules for comply
+mod 'puppetlabs-comply', '3.5.0'
+mod 'puppet-archive', '8.1.0'
+mod 'puppetlabs-chocolatey', '8.0.2'
+mod 'puppetlabs-inifile', '6.2.0'
+mod 'puppetlabs-ruby_task_helper', '1.0.0'
+mod 'puppetlabs-stdlib', '9.7.0'
+
