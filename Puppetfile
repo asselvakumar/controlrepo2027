@@ -29,6 +29,6 @@ mod 'puppetlabs-pwshlib', '1.2.3'
 mod 'puppetlabs-registry', '5.0.3'
 
 mod 'puppetlabs-inifile', '6.2.0'
-mod 'puppetlabs-ruby_task_helper', '1.0.0'
+mod 'puppetlabs-ruby_task_helper', '0.6.1'
 mod 'puppetlabs-stdlib', '9.7.0'
 
