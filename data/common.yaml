@@ -10,10 +10,10 @@ message: "This node is using common data"
 #- 'testingkumar.support.puppetlabs.net:8142'
 
 pe_r10k::forge_settings:
-  authorization_token: 'Bearer 1a5659e21d83616a1ab75fb334846dae243d39c709833341eaa5548753fc8342'
+  authorization_token: 'Bearer 5b7b11b9f7a4c596ccb4aef2ae19e3684f9ade25f400adb069a94625ed2f7e42'
   baseurl: 'https://forgeapi.puppet.com'
 puppet_enterprise::master::code_manager::forge_settings:
-  authorization_token: 'Bearer 1a5659e21d83616a1ab75fb334846dae243d39c709833341eaa5548753fc8342'
+  authorization_token: 'Bearer 5b7b11b9f7a4c596ccb4aef2ae19e3684f9ade25f400adb069a94625ed2f7e42'
 
 accounts:
   ubuntu:
