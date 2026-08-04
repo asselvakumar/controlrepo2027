@@ -18,8 +18,7 @@ forge 'https://forge.puppet.com'
 
 mod 'mkcustomfact',
   git:     'git@github.com:asselvakumar/mkcustomfact.git',
-  branch:  'production',
-  tag:     '0.1.0'
+  branch:  'production'
 
 mod 'nginxcustom',
   git:     'git@github.com:asselvakumar/nginxcustom.git',
